@@ -2,7 +2,7 @@ import { Reveal } from '@/components/reveal'
 
 const infoItems = [
   { label: 'Education', value: 'Teknik Informatika' },
-  { label: 'Current Level', value: 'Semester 3' },
+  { label: 'Current Level', value: 'Semester 5' },
   { label: 'Location', value: 'Jakarta, Indonesia' },
   {
     label: 'Interests',

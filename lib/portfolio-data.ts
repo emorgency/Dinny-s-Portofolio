@@ -49,6 +49,16 @@ export const projects: Project[] = [
     technologies: ['Figma'],
     url: 'https://www.figma.com/design/ECn06Ov04SbjR2UxFx7ycJ/Dinny-Alya---MySkill?node-id=0-1&t=MOLplT4SO5DHyLpD-1',
   },
+
+  {
+    number: '05',
+    title: 'FinSight - On Going',
+    category: 'ML & Data Science',
+    description:
+        'Team project for ISC 2026, it is a web financial control application that helps users to manage their finances and make better financial decisions. It is built using Python, Pandas, NumPy, and Scikit-learn for the Machine Learning model, and FastAPI for the backend.',
+      technologies: ['Python', 'Pandas', 'NumPy', 'Scikit-learn'],
+    url: 'https://github.com/emorgency/ML-Finsight',
+  },
 ]
 
 export type SkillGroup = {
