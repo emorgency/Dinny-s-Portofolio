@@ -19,7 +19,7 @@ export function Hero() {
           </h1>
 
           <p className="mt-5 text-xl font-medium text-foreground sm:text-2xl">
-            Teknik Informatika Student
+            Informatics Engineering Student
           </p>
 
           <p className="mt-2 text-sm uppercase tracking-wide text-muted-foreground">

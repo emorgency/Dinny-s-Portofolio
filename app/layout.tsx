@@ -10,9 +10,9 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Dinny Alya Puteri — Teknik Informatika Student',
+  title: 'Dinny Alya Puteri | Informatics Student Portfolio',
   description:
-    'Portfolio of Dinny Alya Puteri, a Teknik Informatika student in Jakarta, Indonesia, interested in data science, machine learning, and software development.',
+    'Portfolio of Dinny Alya Puteri, an Informatics student interested in data science, machine learning, web development, and building practical technology projects.',
   generator: 'v0.app',
 }
 

@@ -1,7 +1,7 @@
 import { Reveal } from '@/components/reveal'
 
 const infoItems = [
-  { label: 'Education', value: 'Teknik Informatika' },
+  { label: 'Education', value: 'Informatics Engineering Student' },
   { label: 'Current Level', value: 'Semester 5' },
   { label: 'Location', value: 'Jakarta, Indonesia' },
   {
@@ -30,17 +30,18 @@ export function About() {
           <Reveal delay={80}>
             <div className="space-y-5 text-base leading-relaxed text-muted-foreground">
               <p>
-                I&apos;m a Teknik Informatika bachelor student at Universitas Pamulang,
+                I&apos;m a Informatics Engineering bachelor student at Universitas Pamulang,
                 currently in my fifth semester. I&apos;m passionate about
                 developing my skills across data science, machine learning, and
                 software development. Much of my focus is on understanding how
                 data and code come together to solve real problems.
               </p>
               <p>
-                I enjoy turning ideas into practical projects — from small
-                experiments to more complete applications — and I learn best
-                through hands-on development. Each project is a chance to
-                sharpen my fundamentals and try something new.
+                Through hands-on academic and competition projects, I have
+                explored building web applications, working with machine-learning
+                workflows, and designing user-focused digital experiences. I enjoy
+                turning ideas into practical projects while strengthening my
+                technical fundamentals through collaboration and experimentation.
               </p>
             </div>
 

@@ -1,3 +1,4 @@
+
 import { ArrowRight } from 'lucide-react'
 import type { Project } from '@/lib/portfolio-data'
 
@@ -22,28 +23,33 @@ export function ProjectCard({ project }: { project: Project }) {
         {project.description}
       </p>
 
-      <ul className="mt-6 flex flex-wrap gap-2">
-        {project.technologies.map((tech) => (
-          <li
-            key={tech}
-            className="rounded-full border border-border px-3 py-1 text-xs text-muted-foreground"
-          >
-            {tech}
-          </li>
-        ))}
-      </ul>
+      {/* Technology stack and button stay at the bottom */}
+      <div className="mt-auto">
+        <ul className="flex min-h-[64px] flex-wrap content-end items-end gap-2 pt-6">
+          {project.technologies.map((tech) => (
+            <li
+              key={tech}
+              className="rounded-full border border-border px-3 py-1 text-xs text-muted-foreground"
+            >
+              {tech}
+            </li>
+          ))}
+        </ul>
 
-      <div className="mt-8 pt-2">
-        <a
-          href={project.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="group/link inline-flex items-center gap-2 text-sm font-medium text-foreground focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-foreground"
-        >
-          Link Here
-          <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1 group-hover/link:translate-x-1" />
-          <span className="sr-only">— opens {project.title} in a new tab</span>
-        </a>
+        <div className="mt-8 border-t border-border pt-5">
+          <a
+            href={project.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group/link inline-flex items-center gap-2 text-sm font-medium text-foreground transition-colors hover:text-muted-foreground focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-foreground"
+          >
+            Link here
+            <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover/link:translate-x-1" />
+            <span className="sr-only">
+              — opens {project.title} in a new tab
+            </span>
+          </a>
+        </div>
       </div>
     </article>
   )

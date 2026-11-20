@@ -31,7 +31,10 @@ export function Navbar() {
           href="#top"
           className="text-sm font-semibold tracking-tight text-foreground focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-foreground"
         >
-          
+          <span className="inline-flex h-8 w-8 items-center justify-center rounded-md border border-border text-xs font-semibold tracking-tight">
+            DA
+          </span>
+          <span className="ml-2 hidden sm:inline">Dinny Alya</span>
         </a>
 
         <ul className="hidden items-center gap-8 md:flex">
